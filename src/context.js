@@ -48,7 +48,7 @@ export default class RoomProvider extends Component {
          maxSize
        });
      } catch (error) {
-       console.log(error);
+       //console.log(error);
      }
    };
 
@@ -90,7 +90,7 @@ export default class RoomProvider extends Component {
     const target = event.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
-    console.log(name, value);
+    //console.log(name, value);
 
     this.setState(
       {
