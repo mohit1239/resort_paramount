@@ -471,8 +471,9 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 40px;
 }
-.form-group {
+.form-group :hover{
   text-transform: capitalize;
+  
 }
 .form-group label {
   display: block;
@@ -481,8 +482,14 @@ h6 {
 }
 .form-control {
   width: 100%;
-  background: transparent;
+  background:transparent;
   font-size: 1rem;
+  cursor:pointer
+}
+
+.form-control:hover{
+  background:white;
+  cursor:pointer
 }
 .size-inputs {
   display: flex;

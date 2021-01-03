@@ -60,7 +60,7 @@ const RoomsFilter = ({ rooms }) => {
         {/* end of select type */}
         {/* guests  */}
         <div className="form-group">
-          <label htmlFor="capacity">Guests</label>
+          <label htmlFor="capacity">guests</label>
           <select
             name="capacity"
             id="capacity"
